@@ -1,0 +1,23 @@
+uuid: dbb7d333-729d-477a-82b6-32b4c83eef9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.example.field_example
+    - paragraphs.paragraphs_type.example
+id: paragraph.example.default
+targetEntityType: paragraph
+bundle: example
+mode: default
+content:
+  field_example:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

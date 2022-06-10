@@ -1,0 +1,14 @@
+uuid: 057d1cbc-c1da-44ec-9b00-c49d3c19a929
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - drupal@headless.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
