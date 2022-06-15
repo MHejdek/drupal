@@ -1,21 +1,21 @@
-uuid: dbb7d333-729d-477a-82b6-32b4c83eef9d
+uuid: 871ee69e-c7ef-4ff2-a7d7-a63167bf1df5
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.example.field_example
-    - paragraphs.paragraphs_type.example
-id: paragraph.example.default
+    - field.field.paragraph.body_text.field_body
+    - paragraphs.paragraphs_type.body_text
+id: paragraph.body_text.default
 targetEntityType: paragraph
-bundle: example
+bundle: body_text
 mode: default
 content:
-  field_example:
-    type: string_textfield
+  field_body:
+    type: string_textarea
     weight: 0
     region: content
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
 hidden:

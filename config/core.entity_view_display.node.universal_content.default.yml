@@ -1,0 +1,30 @@
+uuid: a73142e0-cef7-4666-9c15-c9e862e8c865
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.universal_content.field_components
+    - node.type.universal_content
+  module:
+    - entity_reference_revisions
+    - user
+id: node.universal_content.default
+targetEntityType: node
+bundle: universal_content
+mode: default
+content:
+  field_components:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

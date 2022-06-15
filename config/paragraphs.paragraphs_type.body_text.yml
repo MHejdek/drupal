@@ -1,10 +1,10 @@
-uuid: 8bbed312-92e0-4c91-92f8-91695a7af64a
+uuid: ff3b6de6-f0b9-4ef9-8a39-46803abad81a
 langcode: en
 status: true
 dependencies: {  }
-id: example
-label: Example
+id: body_text
+label: 'Body Text'
 icon_uuid: null
 icon_default: null
-description: ''
+description: Main
 behavior_plugins: {  }
