@@ -1,0 +1,59 @@
+uuid: 43837c22-8691-46ba-8873-4d4bda34910c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_goals.field_body_first
+    - field.field.paragraph.our_goals.field_body_second
+    - field.field.paragraph.our_goals.field_headline
+    - field.field.paragraph.our_goals.field_headline_first
+    - field.field.paragraph.our_goals.field_headline_second
+    - paragraphs.paragraphs_type.our_goals
+id: paragraph.our_goals.default
+targetEntityType: paragraph
+bundle: our_goals
+mode: default
+content:
+  field_body_first:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_body_second:
+    type: string_textarea
+    weight: 4
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_headline:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_headline_first:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_headline_second:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

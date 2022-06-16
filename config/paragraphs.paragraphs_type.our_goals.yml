@@ -1,0 +1,10 @@
+uuid: 60e1492e-f542-4ffc-ac22-304740895f6a
+langcode: en
+status: true
+dependencies: {  }
+id: our_goals
+label: 'Our Goals'
+icon_uuid: null
+icon_default: null
+description: Main
+behavior_plugins: {  }

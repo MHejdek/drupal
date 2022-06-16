@@ -1,0 +1,19 @@
+uuid: 564b9af5-5785-4880-b2ff-1bd06e70d0e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline_second
+    - paragraphs.paragraphs_type.our_goals
+id: paragraph.our_goals.field_headline_second
+field_name: field_headline_second
+entity_type: paragraph
+bundle: our_goals
+label: 'Headline Second'
+description: 'Hedline on the right'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

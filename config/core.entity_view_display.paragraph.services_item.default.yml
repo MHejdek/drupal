@@ -16,14 +16,14 @@ mode: default
 content:
   field_body:
     type: basic_string
-    label: hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
     weight: 2
     region: content
   field_image:
     type: image
-    label: hidden
+    label: above
     settings:
       image_link: ''
       image_style: ''
@@ -32,7 +32,7 @@ content:
     region: content
   field_label:
     type: string
-    label: hidden
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }

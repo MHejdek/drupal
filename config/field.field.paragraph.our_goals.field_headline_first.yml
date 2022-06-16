@@ -1,0 +1,19 @@
+uuid: 306654b4-edb0-4dc6-ab9f-803c96ffdee0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline_first
+    - paragraphs.paragraphs_type.our_goals
+id: paragraph.our_goals.field_headline_first
+field_name: field_headline_first
+entity_type: paragraph
+bundle: our_goals
+label: 'Headline First'
+description: 'Headline on the left side'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

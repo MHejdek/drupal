@@ -1,0 +1,19 @@
+uuid: 8ae97925-de2a-40a7-92ec-17507b578d04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body_second
+    - paragraphs.paragraphs_type.our_goals
+id: paragraph.our_goals.field_body_second
+field_name: field_body_second
+entity_type: paragraph
+bundle: our_goals
+label: 'Body Second'
+description: 'Body text on the right'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

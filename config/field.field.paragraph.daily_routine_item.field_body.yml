@@ -1,0 +1,19 @@
+uuid: ca527b7e-83d5-43a7-ac41-2defb923e207
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_body
+    - paragraphs.paragraphs_type.daily_routine_item
+id: paragraph.daily_routine_item.field_body
+field_name: field_body
+entity_type: paragraph
+bundle: daily_routine_item
+label: Body
+description: 'Body text in the tile'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

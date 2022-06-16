@@ -7,7 +7,9 @@ dependencies:
     - node.type.universal_content
     - paragraphs.paragraphs_type.accordion
     - paragraphs.paragraphs_type.body_text
+    - paragraphs.paragraphs_type.daily_routine
     - paragraphs.paragraphs_type.hero
+    - paragraphs.paragraphs_type.our_goals
     - paragraphs.paragraphs_type.services
   module:
     - entity_reference_revisions
@@ -27,26 +29,37 @@ settings:
     target_bundles:
       accordion: accordion
       body_text: body_text
+      daily_routine: daily_routine
       hero: hero
+      our_goals: our_goals
       services: services
     negate: 0
     target_bundles_drag_drop:
       accordion:
-        weight: -9
+        weight: -19
         enabled: true
       accordion_item:
-        weight: -8
+        weight: -18
         enabled: false
       body_text:
-        weight: -7
+        weight: -17
         enabled: true
+      daily_routine:
+        weight: -16
+        enabled: true
+      daily_routine_item:
+        weight: -15
+        enabled: false
       hero:
-        weight: -6
+        weight: -14
+        enabled: true
+      our_goals:
+        weight: -13
         enabled: true
       services:
-        weight: 11
+        weight: -12
         enabled: true
       services_item:
-        weight: 12
+        weight: -11
         enabled: false
 field_type: entity_reference_revisions

@@ -1,0 +1,55 @@
+uuid: d36890ab-a9d2-43e1-9f15-586d582457f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_goals.field_body_first
+    - field.field.paragraph.our_goals.field_body_second
+    - field.field.paragraph.our_goals.field_headline
+    - field.field.paragraph.our_goals.field_headline_first
+    - field.field.paragraph.our_goals.field_headline_second
+    - paragraphs.paragraphs_type.our_goals
+id: paragraph.our_goals.default
+targetEntityType: paragraph
+bundle: our_goals
+mode: default
+content:
+  field_body_first:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_body_second:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_headline:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_headline_first:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_headline_second:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

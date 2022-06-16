@@ -1,0 +1,10 @@
+uuid: 50b43c8a-ab97-4e56-9d8f-af4baf085ad7
+langcode: en
+status: true
+dependencies: {  }
+id: daily_routine_item
+label: 'Daily Routine Item'
+icon_uuid: null
+icon_default: null
+description: 'Nested: Used in Daily Routine'
+behavior_plugins: {  }
