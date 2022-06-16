@@ -1,0 +1,21 @@
+uuid: fbc66ae1-c0b0-4095-a29c-f4d5c0017898
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline
+    - paragraphs.paragraphs_type.services
+id: paragraph.services.field_headline
+field_name: field_headline
+entity_type: paragraph
+bundle: services
+label: Headline
+description: 'Text at the top of the section'
+required: true
+translatable: true
+default_value:
+  -
+    value: Services
+default_value_callback: ''
+settings: {  }
+field_type: string

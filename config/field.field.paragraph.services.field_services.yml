@@ -1,0 +1,46 @@
+uuid: c38d26f9-26b2-43aa-bff7-1a15189eef22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_services
+    - paragraphs.paragraphs_type.services
+    - paragraphs.paragraphs_type.services_item
+  module:
+    - entity_reference_revisions
+id: paragraph.services.field_services
+field_name: field_services
+entity_type: paragraph
+bundle: services
+label: Services
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      services_item: services_item
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 7
+        enabled: false
+      accordion_item:
+        weight: 8
+        enabled: false
+      body_text:
+        weight: 9
+        enabled: false
+      hero:
+        weight: 10
+        enabled: false
+      services:
+        weight: 11
+        enabled: false
+      services_item:
+        weight: 12
+        enabled: true
+field_type: entity_reference_revisions

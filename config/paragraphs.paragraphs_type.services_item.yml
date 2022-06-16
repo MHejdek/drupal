@@ -1,0 +1,10 @@
+uuid: 1870f335-64ed-4fc2-8571-1348552b7363
+langcode: en
+status: true
+dependencies: {  }
+id: services_item
+label: 'Services Item'
+icon_uuid: null
+icon_default: null
+description: 'Nested: Used in Services'
+behavior_plugins: {  }
