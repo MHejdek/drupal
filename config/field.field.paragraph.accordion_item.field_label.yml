@@ -1,0 +1,19 @@
+uuid: b1ccbb7c-e409-4cb0-90f9-dc877ae72d4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_label
+    - paragraphs.paragraphs_type.accordion_item
+id: paragraph.accordion_item.field_label
+field_name: field_label
+entity_type: paragraph
+bundle: accordion_item
+label: Label
+description: 'Accordion label text'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

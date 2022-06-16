@@ -1,0 +1,21 @@
+uuid: e50a7dcf-ea0e-47dd-9e1d-5b30b12d47a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_headline
+    - paragraphs.paragraphs_type.hero
+id: paragraph.hero.field_headline
+field_name: field_headline
+entity_type: paragraph
+bundle: hero
+label: Headline
+description: 'Text that is destined to be put at the front of the home page.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Badgers know where their strength lies'
+default_value_callback: ''
+settings: {  }
+field_type: string
